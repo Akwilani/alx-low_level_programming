@@ -1,4 +1,5 @@
 #include "main.h"
+#include <std.h>
 
 /**
 * print_array - display
