@@ -4,6 +4,7 @@
 * puts_half -lenght of string
 * @str:char
 * Return:int
+*/
 void puts_half(char *str)
 {
 int i, j;
