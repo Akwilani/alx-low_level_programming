@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strien - length of string
- * @s:char
- * Return:int
- */
- int _strlen(char *s)
- {
+* _strien - length of string
+* @s:char
+* Return:int
+*/
+int _strlen(char *s)
+{
    int i;
   
     for (i=0; s[i] != '\0'; i++)
@@ -14,4 +14,4 @@
                continue;
            }
  return (i);
- }
+}
