@@ -1,4 +1,4 @@
-#include <std.h>
+#include <stdio.h>
 /**
 * main -Prints some letters of aplhpabet
 * Return: Always (Success)
