@@ -1,10 +1,5 @@
-#include "main.h"
+ #include "main.h"
 /**
-<<<<<<< HEAD
-* reverse_array - reverses content of an array of integers
-* @a: array of integers
-* @n: number of elements of array
-=======
  * reverse_array - reverses the content of an array of integers
  * @a: an array of integers
  * @n: number of elements of the array
@@ -43,4 +38,3 @@ end_c--;
 }
 
 }
->>>>>>> 237464df6ea502704d29bfe04df06e6d1f29b18a
