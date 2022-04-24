@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
-* main -Prints some letters of aplhpabet
-* Return: Always (Success)
-*/
+ * main - main block
+ * Description: Use `putchar` to print all letters but the letter 'q' and 'e'.
+ * Return: 0
+ */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
+char c = 'a';
+
+while (c <= 'z')
 {
-if (c != 'e' && c != 'q')
-{
+if (c != 'q' && c != 'e')
 putchar(c);
-}
+c++;
 }
 putchar('\n');
+
 return (0);
 }
